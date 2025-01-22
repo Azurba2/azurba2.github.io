@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Base href for serving the app -->
+  <!-- Base href for the web app -->
   <base href="/">
 
   <meta charset="UTF-8">
@@ -17,30 +17,11 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>joao_site_flutter</title>
+  <title>João Pimenta</title>
   <link rel="manifest" href="manifest.json">
-
-  <script>
-    // Use the template token for the service worker version.
-    const serviceWorkerVersion = ""1367962704"";
-  </script>
-  <!-- This script adds the Flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
 </head>
 <body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Updated initialization using FlutterLoader.load
-      FlutterLoader.load({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        }
-      }).then(function(engineInitializer) {
-        engineInitializer.initializeEngine().then(function(appRunner) {
-          appRunner.runApp();
-        });
-      });
-    });
-  </script>
+  <!-- Use flutter_bootstrap.js to initialize the Flutter app -->
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
