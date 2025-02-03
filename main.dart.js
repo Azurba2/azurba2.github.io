@@ -62202,7 +62202,7 @@ au(){return new A.Ke(B.bX,null,null)}}
 A.Ke.prototype={
 K(a){return new A.uB(new A.a84(this),null)},
 RL(a,b){var s,r=null
-if(b>1080){s=t.p
+if(b>1220){s=t.p
 s=new A.ck(B.DF,A.fR(A.a([A.fR(A.a([A.hr(A.dP("assets/images/joao_piment_black_center.png",r,r,r),r,350)],s),B.u,B.z,B.w),B.DR,A.fR(A.a([this.KU()],s),B.u,B.ew,B.w)],s),B.u,B.z,B.w),r)}else s=this.KU()
 return new A.wl(new A.Fi(new A.rA(s,B.fM,new A.LP(r,r,1/0,56),r),B.MF,r),new A.fx(new A.a83(this,a),r),r)},
 KU(){var s=this,r=null,q=A.no(A.ed("About me",A.ik(r,r,s.f==="About me"?B.cY:B.i,r,r,r,r,r,r,r,r,30,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r),new A.a8a(s)),p=A.no(A.ed("Experience",A.ik(r,r,s.f==="Experience"?B.cY:B.i,r,r,r,r,r,r,r,r,30,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r),new A.a8b(s)),o=A.no(A.ed("Education",A.ik(r,r,s.f==="Education"?B.cY:B.i,r,r,r,r,r,r,r,r,30,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r),new A.a8c(s)),n=A.no(A.ed("Projects",A.ik(r,r,s.f==="Projects"?B.cY:B.i,r,r,r,r,r,r,r,r,30,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r),new A.a8d(s))
@@ -71192,7 +71192,7 @@ B.Mx=new A.X(B.bO,!0,!0,!1,!1,B.an)
 B.Mw=new A.X(B.bP,!0,!0,!1,!1,B.an)
 B.Mv=new A.X(B.bQ,!0,!0,!1,!1,B.an)
 B.MC=new A.E(1e5,1e5)
-B.MF=new A.E(1/0,180)
+B.MF=new A.E(1/0,230)
 B.iq=new A.dh(0,0,null,null)
 B.vY=new A.dh(20,null,null,null)
 B.MG=new A.dh(25,null,null,null)
